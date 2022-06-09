@@ -62,7 +62,7 @@ public class SimpleCalculator {
         f.setLayout(null);
         f.setVisible(true);
         field.setBounds(20,10,350,50);
-        field.setBackground(Color.MAGENTA);
+        field.setBackground(Color.lightGray);
         f.add(field);
         
         CalculatorButton zero = new CalculatorButton(f,"0",20,300,80,40);
